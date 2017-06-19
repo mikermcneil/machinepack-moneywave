@@ -44,7 +44,7 @@ To report a bug, [click here](http://sailsjs.com/bugs).
 
 ## License
 
-This core package is available under the **MIT license**.
+This package is available under the **MIT license**.
 
 As for the [Sails.js framework](http://sailsjs.com) and [Node Machine Project](http://node-machine.org)?  They're free and open-source under the [MIT License](http://sailsjs.com/license) too.
 
