@@ -1,0 +1,50 @@
+{
+  "name": "machinepack-moneywave",
+  "version": "0.1.0",
+  "description": "Integrate with the Moneywave API (Flutterwave) for payments and transfers.",
+  "scripts": {
+    "test": "npm run lint && npm run custom-tests",
+    "custom-tests": "node ./node_modules/mocha/bin/mocha -R spec",
+    "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 && echo '✔  Your code looks good.'"
+  },
+  "keywords": [
+    "payments",
+    "api",
+    "cloud",
+    "africa",
+    "moneywave",
+    "flutterwave",
+    "financial",
+    "fintech",
+    "machines",
+    "machinepack"
+  ],
+  "author": "The Sails Company",
+  "license": "MIT",
+  "dependencies": {
+    "@sailshq/lodash": "^3.10.2",
+    "machine": "^13.0.0-10",
+    "machinepack-http": "^3.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mikermcneil/machinepack-http.git"
+  },
+  "devDependencies": {
+    "eslint": "3.5.0",
+    "mocha": "3.0.2"
+  },
+  "machinepack": {
+    "friendlyName": "Moneywave",
+    "machineDir": "machines/",
+    "machines": [
+      "get-access-token",
+      "withdraw-from-wallet",
+      "create-sub-wallet"
+    ],
+    "testsUrl": "https://travis-ci.org/sailshq/machinepack-moneywave"
+  },
+  "engines": {
+    "node": "8"
+  }
+}
