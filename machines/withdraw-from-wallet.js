@@ -21,30 +21,35 @@ module.exports = {
     },
 
     amount: {
+      description: 'The amount of money to withdraw from the wallet.',
+      example: 25000
       // TODO: please clarify about precision of the decimal point, and if it's not clear, ask Mike.
     },
 
     senderName: {
-      // TODO
+      description: 'The full name of the sender.',
+      example: 'Jon Snow'
     },
 
     accountNumber: {
-      // TODO
+      description: 'The identifier for the recipient account.'
     },
 
     bankCode: {
-      // TODO
+      description: 'The SWIFT/BIC code or routing number for the recipient account\'s bank.',
+      example: 'CITINGLA'
     },
-
     walletPassword: {
+      type: 'string',
+      required: true,
+      protected: true,
       // TODO
     },
 
     transactionReferenceCode: {
-      // TODO
+      description: 'A unique identifier for the transaction.',
+      example: 'aq7182jsha0213jkuf9033'
     },
-
-
 
   },
 
@@ -63,7 +68,7 @@ module.exports = {
     var HTTP = require('machinepack-http');
 
     var resInfo = await HTTP.sendHttpRequest({
-      url: 'https://moneywave.herokuapp.com/v1/merchant/verify',
+      url: 'https://moneywave.herokuapp.com/v1/disburse',
       body: {
         amount: inputs.amount,
         senderName: inputs.senderName,
