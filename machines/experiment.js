@@ -64,14 +64,8 @@ module.exports = {
 
     var Moneywave = require('./');
 
-    try {
-      var result = await Moneywave.helpExperiment({});
-      return exits.success(result);
-    } catch (e) {
-      return exits.error(e);
-    }
-
-
+    var result = await Moneywave.helpExperiment({});
+    return exits.success(result);
 
   },
 
