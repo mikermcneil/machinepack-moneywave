@@ -38,6 +38,8 @@
     "friendlyName": "Moneywave",
     "machineDir": "machines/",
     "machines": [
+      "experiment",
+      "help-experiment",
       "get-access-token",
       "withdraw-from-wallet",
       "create-sub-wallet"
