@@ -62,7 +62,7 @@ module.exports = {
 
   fn: async function(inputs, exits) {
 
-    var Moneywave = require('./');
+    var Moneywave = require('../');
 
     var result = await Moneywave.helpExperiment({});
     return exits.success(result);

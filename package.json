@@ -39,6 +39,7 @@
     "machineDir": "machines/",
     "machines": [
       "experiment",
+      "experiment-sync",
       "help-experiment",
       "get-access-token",
       "withdraw-from-wallet",
