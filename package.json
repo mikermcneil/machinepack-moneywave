@@ -24,7 +24,7 @@
   "dependencies": {
     "@sailshq/lodash": "^3.10.2",
     "machine": "^15.0.0-0",
-    "machinepack-http": "^3.1.2"
+    "machinepack-http": "^4.0.0-0"
   },
   "repository": {
     "type": "git",
