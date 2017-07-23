@@ -40,7 +40,8 @@
     "machines": [
       "get-access-token",
       "withdraw-from-wallet",
-      "create-sub-wallet"
+      "create-sub-wallet",
+      "fund-wallet"
     ],
     "testsUrl": "https://travis-ci.org/sailshq/machinepack-moneywave"
   },
