@@ -23,7 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "@sailshq/lodash": "^3.10.2",
-    "machine": "^15.0.0-0",
+    "machine": "^15.0.0-2",
     "machinepack-http": "^4.0.0-0"
   },
   "repository": {
