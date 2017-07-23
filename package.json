@@ -36,11 +36,8 @@
   },
   "machinepack": {
     "friendlyName": "Moneywave",
-    "machineDir": "machines/",
+    "machineDir": "lib/",
     "machines": [
-      "experiment",
-      "experiment-sync",
-      "help-experiment",
       "get-access-token",
       "withdraw-from-wallet",
       "create-sub-wallet"
