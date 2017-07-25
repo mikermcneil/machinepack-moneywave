@@ -37,6 +37,7 @@
     "friendlyName": "Moneywave",
     "machineDir": "lib/",
     "machines": [
+      "check-bank-account-number",
       "get-access-token",
       "set-global-credentials",
       "withdraw-from-wallet",
