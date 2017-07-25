@@ -39,6 +39,7 @@
     "machineDir": "lib/",
     "machines": [
       "get-access-token",
+      "set-global-credentials",
       "withdraw-from-wallet",
       "create-sub-wallet",
       "fund-wallet"
