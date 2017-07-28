@@ -39,6 +39,7 @@
     "machines": [
       "check-bank-account-number",
       "check-card",
+      "tokenize-card",
       "get-access-token",
       "set-global-credentials",
       "withdraw-from-wallet",
