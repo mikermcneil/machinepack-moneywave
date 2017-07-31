@@ -1,8 +1,6 @@
-[![Payments and transfers with Node.js/Sails.js and Moneywave/Flutterwave](https://moneywave.flutterwave.com/logo/logoMobile.png)](https://sailsjs.com)
+<h1>machinepack-<a title="Payments and transfers with Node.js/Sails.js and Moneywave/Flutterwave" href="https://moneywave.flutterwave.com/"><img width="200" src="https://moneywave.flutterwave.com/logo/logoMobile.png" /></a></h1>
 
-<a href="https://sailsjs.com"><img width="75" src="https://camo.githubusercontent.com/9e49073459ed4e0e2687b80eaf515d87b0da4a6b/687474703a2f2f62616c64657264617368792e6769746875622e696f2f7361696c732f696d616765732f6c6f676f2e706e67" /></a> <a href="http://nodejs.org"><img width="75" src="https://user-images.githubusercontent.com/618009/28782759-c62f8f20-75d3-11e7-8a83-32fb52178416.png" /></a>
-
-# machinepack-moneywave
+<a href="https://sailsjs.com"><img width="50" src="https://camo.githubusercontent.com/9e49073459ed4e0e2687b80eaf515d87b0da4a6b/687474703a2f2f62616c64657264617368792e6769746875622e696f2f7361696c732f696d616765732f6c6f676f2e706e67" /></a>&nbsp;<a href="http://nodejs.org"><img width="60" src="https://user-images.githubusercontent.com/618009/28782759-c62f8f20-75d3-11e7-8a83-32fb52178416.png" /></a>
 
 Integrate with the Moneywave API (Flutterwave) for payments and transfers in your JavaScript/Node.js/Sails.js app.
 
