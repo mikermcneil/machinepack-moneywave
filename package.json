@@ -1,6 +1,6 @@
 {
   "name": "machinepack-moneywave",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Integrate with the Moneywave API (Flutterwave) for payments and transfers.",
   "scripts": {
     "test": "npm run lint && npm run custom-tests",
